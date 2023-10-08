@@ -1,0 +1,236 @@
+.navButtons  {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  .genresDiv {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    background-color: #007bff;
+    margin-bottom: 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .genreslink {
+    margin: 7px;
+    color: #fff;
+    background-color: #1d6096; 
+    border: 2px solid #1d6096;
+    border-radius: 25px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  .genreslink:hover {
+    background-color: #fff; 
+    color: #1d6096;
+    transform: scale(1.1);
+  }
+     
+  .navButtons li {
+    margin: 10px;
+  }
+
+ 
+  .navButtons a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navButtons a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+ .description{
+  padding: 5px;
+ }
+  
+  .moviebox {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 115px;
+     height: 700px
+  }
+  .tit{
+    margin-left: 140px;
+  }
+
+  .black{
+    color: #000;
+  }
+  
+  .moviebox:hover {
+    transform: scale(1.05);
+  }
+  
+  .title {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #becad6;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .poster {
+    width: 100%;
+  }
+
+  .btn-warning {
+    background-color: #ffc107;
+    color: #000;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ffab00;
+    color: #000;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  body{
+    background-color:aliceblue;
+    overflow-x: hidden;
+  }
+
+
+  .pagination ul {
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 60px;
+  }
+  .pagination ul li {
+    margin: auto;
+    text-align: center;
+  }
+  .form-control {
+    width: 220px;
+    margin-left: 10px;
+  }
+  .pageinput {
+    display: flex;
+    text-align: center;
+    margin: auto;
+  }
+  .pageinput .btn {
+    margin: 5px;
+  }
+  .nextButton {
+    float: right;
+    min-width: 130px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .pagebuttons {
+    display: flex;
+    
+  }
+  footer {
+    background-color: #1a63cf;
+    color: #fff;
+    text-align: center;
+    padding: 10.6px 0px;
+    margin-bottom: 0px;
+  
+  }
+  
+  .ghouscodex-section {
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline;
+    color: black;
+  }
+  .goUp {
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    color: black;
+    background-color: #b9d2ee;
+    border-radius: 30px;
+    text-decoration: none;
+    opacity: 1.7;
+    padding: 5px;
+
+  }
+  .custom-select{
+    width: 30%;
+    border: none;
+    border-radius: 30px;
+
+  }
+  .goUp:hover{
+    color: #007bff;
+    font-size: large;
+  }
+
+  .input-group {
+    margin: 20px auto;
+    width: 500px;
+    margin-left: 600px;
+  }
+
+.search-bar-container {
+  overflow: hidden;
+}
+
+.search-input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  float: left;
+}
+
+.search-button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  float: left;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.search-button:hover {
+  background-color: #81b9f5;
+  transform: scale(1.05);
+}
